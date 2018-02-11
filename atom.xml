@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="chaserr.github.io/"/>
-  <updated>2018-02-11T14:31:51.576Z</updated>
+  <updated>2018-02-11T15:28:33.623Z</updated>
   <id>chaserr.github.io/</id>
   
   <author>
@@ -20,16 +20,16 @@
     <title>联系我们</title>
     <link href="chaserr.github.io/2018/02/11/%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC/"/>
     <id>chaserr.github.io/2018/02/11/联系我们/</id>
-    <published>2018-02-11T14:19:40.000Z</published>
-    <updated>2018-02-11T14:31:51.576Z</updated>
+    <published>2018-02-10T16:00:00.000Z</published>
+    <updated>2018-02-11T15:28:33.623Z</updated>
     
-    <content type="html"><![CDATA[  <head><br>    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><br>    <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具"><br>    <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图"><br>    <title>百度地图API自定义地图</title><br>    <!--引用百度地图API--><br>    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=您的密匙"></script><br>  </head><p>  <body><br>    <!--百度地图容器--><br>    <div style="width:700px;height:550px;border:#ccc solid 1px;font-size:12px" id="map"></div><br>    <p style="color:red;font-weight:600">地图生成工具基于百度地图JS api v2.0版本开发，使用请申请密匙。<br>      <a href="http://developer.baidu.com/map/index.php?title=jspopular/guide/introduction" style="color:#2f83c7" target="_blank">了解如何申请密匙</a><br>      <a href="http://lbsyun.baidu.com/apiconsole/key?application=key" style="color:#2f83c7" target="_blank">申请密匙</a><br>    </p><br>  </body><br>  <script type="text/javascript"><br>    //创建和初始化地图函数：<br>    function initMap(){<br>      createMap();//创建地图<br>      setMapEvent();//设置地图事件<br>      addMapControl();//向地图添加控件<br>      addMapOverlay();//向地图添加覆盖物<br>    }<br>    function createMap(){<br>      map = new BMap.Map(“map”);<br>      map.centerAndZoom(new BMap.Point(120.039711,28.724324),15);<br>    }<br>    function setMapEvent(){<br>      map.enableScrollWheelZoom();<br>      map.enableKeyboard();<br>      map.enableDragging();<br>      map.enableDoubleClickZoom()<br>    }<br>    function addClickHandler(target,window){<br>      target.addEventListener(“click”,function(){<br>        target.openInfoWindow(window);<br>      });<br>    }<br>    function addMapOverlay(){<br>      var markers = [<br>        {content:”到达洋山村后即可拨打我们的电话”,title:”公司地点”,imageOffset: {width:0,height:3},position:{lat:28.722423,lng:120.044526}}<br>      ];<br>      for(var index = 0; index &lt; markers.length; index++ ){<br>        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);<br>        var marker = new BMap.Marker(point,{icon:new BMap.Icon(“<a href="http://api.map.baidu.com/lbsapi/createmap/images/icon.png&quot;,new">http://api.map.baidu.com/lbsapi/createmap/images/icon.png&quot;,new</a> BMap.Size(20,25),{<br>          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)<br>        })});<br>        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});<br>        var opts = {<br>          width: 200,<br>          title: markers[index].title,<br>          enableMessage: false<br>        };<br>        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);<br>        marker.setLabel(label);<br>        addClickHandler(marker,infoWindow);<br>        map.addOverlay(marker);<br>      };<br>    }<br>    //向地图添加控件<br>    function addMapControl(){<br>      var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});<br>      scaleControl.setUnit(BMAP_UNIT_IMPERIAL);<br>      map.addControl(scaleControl);<br>      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});<br>      map.addControl(navControl);<br>      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});<br>      map.addControl(overviewControl);<br>    }<br>    var map;<br>      initMap();<br>  </script></p>]]></content>
+    <content type="html"><![CDATA[<p><iframe width="1000" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://f.amap.com/263dq_0D84ek8"></iframe>‘</p><p text-align:="" center;="">我们供撒爱的安慰爱我的</p>]]></content>
     
     <summary type="html">
     
       
       
-          &lt;head&gt;&lt;br&gt;    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&lt;br&gt;    &lt;meta name=&quot;keywords&quot; content=&quot;百度地图,百度地图API，百度地图自
+        &lt;p&gt;&lt;iframe width=&quot;1000&quot; height=&quot;600&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://f.amap.com/263dq_0D84ek8&quot;&gt;&lt;
       
     
     </summary>
